@@ -1,0 +1,42 @@
+# ---- Visual Studio / MSBuild 工程文件 ----
+.vs/
+*.user
+*.suo
+*.ipch
+*.VC.db
+*.VC.VC.opendb
+*.sln.docstates
+
+# ---- 编译输出目录 ----
+Debug/
+Release/
+x64/
+Win32/
+ipch/
+
+# ---- 编译中间产物 ----
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.tlog
+*.log
+*.lastbuildstate
+*.recipe
+*.FileListAbsolute.txt
+*.Build.CppClean.log
+
+# ---- 代码分析输出 ----
+*.sarif
+*.nativecodeanalysis.xml
+CodeAnalysisResultManifest.txt
+
+# ---- 备份 / 临时文件 ----
+*.bak
+*.tmp
+*.orig
+*~
